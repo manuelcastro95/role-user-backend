@@ -54,8 +54,8 @@ usuarios-roles-backend/
 
 1. Clona el repositorio:
 ```bash
-   git clone <url-del-repo>
-   cd usuarios-roles-backend
+   git clone https://github.com/manuelcastro95/role-user-backend
+   cd role-user-backend
 ```  
 2. Instala las dependencias 
 ```bash
