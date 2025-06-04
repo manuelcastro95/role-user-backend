@@ -94,7 +94,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"nombres\": \"John\",\n    \"apellidos\": \"Doe\",\n    \"email\": \"john@example.com\",\n    \"rolId\": \"683fb136ef178a36b3175c3c\"\n}"
+							"raw": "{\n    \"nombres\": \"John\",\n    \"apellidos\": \"Doe\",\n    \"identificacion\": \"8111111\",\n    \"email\": \"john1@example.com\",\n    \"rolId\": \"683fb136ef178a36b3175c3c\"\n}"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/users",
