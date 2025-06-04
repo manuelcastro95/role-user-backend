@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import connectDB from './config/dbConfig.js';
+import rolesRoutes from './routes/roles.routes.js';
 
 // Conectar a la base de datos
 connectDB();
@@ -13,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // Rutas
-
+app.use('/api/roles', rolesRoutes);
 
 
 // Ruta principal
