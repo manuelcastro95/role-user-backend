@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import connectDB from './config/dbConfig.js';
 import rolesRoutes from './routes/roles.routes.js';
-
+import usersRoutes from './routes/users.routes.js';
 // Conectar a la base de datos
 connectDB();
 
@@ -15,7 +15,7 @@ app.use(cors());
 
 // Rutas
 app.use('/api/roles', rolesRoutes);
-
+app.use('/api/users', usersRoutes);
 
 // Ruta principal
 app.get("/", (req, res) => {
